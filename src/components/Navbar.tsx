@@ -3,7 +3,7 @@ import { Button, Container, Nav, Navbar as NavbarStrap } from "react-bootstrap";
 
 export function Navbar() {
   return (
-    <NavbarStrap className="bg-white shadow-sm mb-3">
+    <NavbarStrap sticky="top" className="bg-white shadow-sm mb-3">
       <Container>
         <Nav className="me-auto">
           <Nav.Link to="/" as={NavLink}>
